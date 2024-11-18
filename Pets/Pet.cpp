@@ -1,6 +1,12 @@
 #include "Pet.h"
 
-Pet::Pet() : name("undefined"), type("undefined"), color("undefined"), age(0) {}
+void Pet::CreatePet() 
+{
+	name = "undefined"; 
+	type = "undefined";
+	color = "undefined";
+	age = 0;
+}
 
 void Pet::CreatePet(const char* n, const char* t, const char* c, double a) 
 {
